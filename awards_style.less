@@ -1,0 +1,185 @@
+@indent: 98px;
+@top_padding: 149px;
+@all_width: 1366px;
+@slider1_heigt: 800px;
+@header_top: 63px;
+@link_color: #212121;
+@font_color: #212121;
+@back-color: white;
+@base_font_weight: 300;
+@base_font_size: 14px;
+* {
+margin: 0;
+padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.staff {
+    padding-top: @top_padding;
+    center {
+        position: relative;
+    }
+    .logo {
+        padding-bottom: 50px;
+    }
+    .icon {
+        top: 111px;
+        left: 10%;
+    }
+    .buttons {
+        position: relative;
+        width: 600px;
+        margin: 0 auto;
+        height: 300px;
+    }
+    .post {
+        position: relative;
+        width: 600px;
+        margin: 0 auto;
+    }
+    .button_stars {
+        position: absolute;
+        box-sizing: border-box;
+        width: 86px;
+        height: 29px;
+        background: #FFFFFF;
+        border: 2px solid #F5A615;
+        border-radius: 30px;
+        
+        top: 103%;
+        text-decoration: none;
+        display: block;
+        left: 42%;
+    }
+    .button_events {
+        position: absolute;
+        box-sizing: border-box;
+        width: 151px;
+        height: 25px;
+        background: #2099E6;
+        border-radius: 30px;
+        text-decoration: none;
+        display: block;
+        top: 166%;
+        left: 20%;
+    }
+    .button_awards {
+        position: absolute;
+        
+        left: 54%;
+        top: 166%;
+        box-sizing: border-box;
+        display: block;
+        width: 151px;
+        height: 26px;
+        background: #FFFFFF;
+        border: 1.5px solid #2099E6;
+        border-radius: 50px;
+        text-decoration: none;
+
+    }
+    
+    .button_text_alt {
+        font-family: Germania One;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 13px;
+        /* identical to box height */
+
+        text-align: center;
+        margin: 5px;
+        align-items: center;
+        text-align: center;
+
+        color: #212120;
+
+
+        /* Inside Auto Layout */
+
+        flex: none;
+        order: 0;
+        align-self: center;
+        margin: 5px 0px;
+    }
+    .button_text {
+        margin: 0 auto;
+        text-decoration: none;
+        font-family: Germania One;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+        align-items: center;
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+    .button_stars:hover, .button_events:hover, .button_awards:hover {
+        box-shadow: 0 0 5px;
+    }
+    .header {
+        width: 558px;
+        left: 441px;
+        top: 253px;
+        margin-bottom: 45px;
+        
+        font-family: Roboto Mono;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 29px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+        color: #000000;
+    }
+    table img {
+            padding-left: 17%;
+    }
+    .common {
+        padding-bottom: 44px;
+        padding-top: 14px;
+    }
+    td {
+        width: 174px;
+        height: 200px;
+        text-decoration: none;
+        padding-bottom: 70px;
+        p {
+            text-align: center;
+            
+            font-family: Quicksand;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 14px;
+            text-decoration: none;
+
+            color: #212120;
+        }
+        a {
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+            text-decoration-color: orange;
+        }
+    }
+}
+
