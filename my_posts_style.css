@@ -18,17 +18,81 @@ body {
 .staff {
   padding-top: 149px;
 }
+.staff center {
+  position: relative;
+}
 .staff .logo {
-  padding-bottom: 143px;
+  padding-bottom: 50px;
 }
 .staff .icon {
   top: 111px;
   left: 10%;
 }
-.staff form {
+.staff .buttons {
   position: relative;
   width: 600px;
   margin: 0 auto;
+  height: 300px;
+}
+.staff .post {
+  position: relative;
+  width: 600px;
+  margin: 0 auto;
+}
+.staff .button_stars {
+  position: absolute;
+  box-sizing: border-box;
+  width: 86px;
+  height: 29px;
+  background: #FFFFFF;
+  border: 2px solid #F5A615;
+  border-radius: 30px;
+  top: 103%;
+  text-decoration: none;
+  display: block;
+  left: 42%;
+}
+.staff .button_events {
+  position: absolute;
+  box-sizing: border-box;
+  width: 151px;
+  height: 25px;
+  background: #2099E6;
+  border-radius: 30px;
+  text-decoration: none;
+  display: block;
+  top: 166%;
+  left: 20%;
+}
+.staff .button_awards {
+  position: absolute;
+  left: 54%;
+  top: 166%;
+  box-sizing: border-box;
+  display: block;
+  width: 151px;
+  height: 26px;
+  background: #FFFFFF;
+  border: 1.5px solid #2099E6;
+  border-radius: 50px;
+  text-decoration: none;
+}
+.staff .button_text_alt {
+  font-family: Germania One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 13px;
+  /* identical to box height */
+  margin: 5px;
+  align-items: center;
+  text-align: center;
+  color: #212120;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  align-self: center;
+  margin: 5px 0px;
 }
 .staff .old_post {
   width: 600px;
@@ -68,16 +132,51 @@ body {
   font-weight: normal;
   font-size: 18px;
   line-height: 21px;
-  display: flex;
   align-items: center;
   text-align: center;
   color: #FFFFFF;
 }
+.staff .calendar {
+  position: absolute;
+  top: 67%;
+  /* right: 41px; */
+  width: 160.51px;
+  /* height: 59.24px; */
+  width: 90px;
+  /* height: 8px; */
+  /* left: 152px; */
+  /* top: 371px; */
+  font-family: Germania One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  /* line-height: 13px; */
+  /* display: flex; */
+  /* align-items: center; */
+  text-align: center;
+  color: #FFFFFF;
+  left: 41%;
+}
 .staff .button_text {
-  padding-left: 45px;
+  margin: 0 auto;
+  text-decoration: none;
+  font-family: Germania One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
 }
 .staff .button1:hover {
   border-radius: 25px;
+}
+.staff .button:hover,
+.staff .button_stars:hover,
+.staff .button_events:hover,
+.staff .button_awards:hover {
+  box-shadow: 0 0 5px;
 }
 .staff .button {
   width: 71.43px;
@@ -92,4 +191,7 @@ body {
 }
 .staff .plus {
   margin-top: 17px;
+}
+.staff .f {
+  padding-top: 20px;
 }
