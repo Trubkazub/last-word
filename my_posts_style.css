@@ -32,12 +32,13 @@ body {
   position: relative;
   width: 600px;
   margin: 0 auto;
-  height: 300px;
+  height: 250px;
 }
 .staff .post {
   position: relative;
   width: 600px;
   margin: 0 auto;
+  margin-top: 50px;
 }
 .staff .button_stars {
   position: absolute;
@@ -118,7 +119,6 @@ body {
 }
 .staff .button1 {
   position: absolute;
-  top: 163px;
   right: 41px;
   width: 160.51px;
   height: 59.24px;
@@ -169,9 +169,6 @@ body {
   text-align: center;
   color: #FFFFFF;
 }
-.staff .button1:hover {
-  border-radius: 25px;
-}
 .staff .button:hover,
 .staff .button_stars:hover,
 .staff .button_events:hover,
@@ -194,4 +191,43 @@ body {
 }
 .staff .f {
   padding-top: 20px;
+}
+.staff .dropdown {
+  list-style: none;
+  position: absolute;
+  left: 101%;
+  top: 1%;
+}
+.staff .b2,
+.staff .b3,
+.staff .b4 {
+  visibility: hidden;
+}
+.staff li {
+  list-style: none;
+  float: left;
+  position: relative;
+}
+.staff ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+}
+.staff li:hover ul {
+  display: block;
+}
+.staff ul li {
+  float: none;
+}
+.staff .b1 {
+  top: 163px;
+}
+.staff .b2 {
+  top: 223px;
+}
+.staff .b3 {
+  top: 283px;
+}
+.staff .b4 {
+  top: 343px;
 }

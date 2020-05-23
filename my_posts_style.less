@@ -44,12 +44,13 @@ body {
         position: relative;
         width: 600px;
         margin: 0 auto;
-        height: 300px;
+        height: 250px;
     }
     .post {
         position: relative;
         width: 600px;
         margin: 0 auto;
+        margin-top: 50px;
     }
     .button_stars {
         position: absolute;
@@ -143,7 +144,7 @@ body {
     }
     .button1 {
         position: absolute;
-        top: 163px;
+        
         right: 41px;
         width: 160.51px;
         height: 59.24px;
@@ -199,9 +200,6 @@ body {
 
         color: #FFFFFF;
     }
-    .button1:hover {
-        border-radius: 25px;
-    }
     .button:hover, .button_stars:hover, .button_events:hover, .button_awards:hover {
         box-shadow: 0 0 5px;
     }
@@ -222,5 +220,42 @@ body {
     .f {
         padding-top: 20px;
     }
+    .dropdown {
+        list-style: none; 
+        position: absolute;
+        left: 101%;
+        top: 1%;
+    }
+    .b2, .b3, .b4 {
+        visibility: hidden;
+    }
+    li {
+        list-style: none;
+        float: left; 
+        position: relative;
+    }
+    ul { 
+      display: none;
+      position: absolute;
+      top: 100%;
+    }
+    li:hover ul { 
+        display: block;
+        
+    }
+    ul li { float: none; }
+    .b1 {
+        top: 163px;
+    }
+    .b2 {
+        top: 223px;
+    }
+    .b3 {
+        top: 283px;
+    }
+    .b4 {
+        top: 343px;
+    }
+    
 }
 
